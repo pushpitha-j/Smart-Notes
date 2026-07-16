@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.container h1 img{
+    width: 60px;
+}
+.container button img{
+    width: 25px;
+    margin-right: 8px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(135deg,#8A2BE2,#5B0FB8);
+
+    color:#fff;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    border:none;
+
+    border-radius:50px;
+
+    padding:15px 30px;
+
+    margin:30px 0;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.container button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.3);
+
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 22px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 15px;
+    outline: none;
+
+    font-size: 18px;
+    line-height: 1.6;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+
+    transition: 0.3s ease;
+}
+.input-box img{
+    width: 24px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+
+    cursor: pointer;
+
+    opacity: .6;
+
+    transition: .3s;
+}
+
+.input-box img:hover{
+    opacity: 1;
+    transform: scale(1.2) rotate(8deg);
+}
+
+.search-box{
+    margin:20px 0;
+}
+
+.search-box input{
+
+    width:100%;
+    max-width:500px;
+
+    padding:15px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    background:white;
+
+    color:#333;
+
+    box-shadow:0 3px 8px rgba(0,0,0,.15);
+
+}
+
+.notes-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+    gap:25px;
+    margin-top:25px;
+    width:90%;
+}
+
+.input-box:hover{
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,.25);
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+#themeBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px 25px;
+
+    border: none;
+    border-radius: 40px;
+
+    background: #2d2d2d;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+#themeBtn:hover{
+    background: #000;
+    transform: translateY(-3px);
+}
+
+/* ===== DARK MODE ===== */
+
+body.dark{
+    background: #121212;
+}
+
+body.dark .container{
+    background: linear-gradient(135deg,#232526,#414345);
+}
+
+body.dark h1{
+    color: white;
+}
+
+body.dark .search-box input{
+    background:#2d2d2d;
+    color:white;
+}
+
+body.dark .search-box input::placeholder{
+    color:#ccc;
+}
+
+body.dark .input-box{
+    color: white;
+    border: 2px solid rgba(255,255,255,.15);
+    filter: brightness(0.85);
+    box-shadow: 0 8px 20px rgba(255,255,255,.08);
+}
+
+body.dark #themeBtn{
+    background:#FFD54F;
+    color:#222;
+}
+
+#exportBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px 25px;
+
+    border: none;
+    border-radius: 40px;
+
+    background: #1E88E5;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+#exportBtn:hover{
+    background: #1565C0;
+    transform: translateY(-3px);
+}
+
+@media (max-width:768px){
+
+    .container{
+        padding:30px 20px;
+    }
+
+    .button-group{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .btn,
+    #themeBtn,
+    #exportBtn{
+        width:100%;
+        justify-content:center;
+    }
+
+    .search-box input{
+        max-width:100%;
+    }
+
+    .notes-container{
+        grid-template-columns:1fr;
+        width:100%;
+    }
+
+}

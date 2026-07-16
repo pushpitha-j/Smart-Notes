@@ -87,6 +87,30 @@ Smart-Notes/
 - File export functionality
 
 ---
+## Responsive Design
+
+Smart Notes is designed to provide a consistent experience across multiple devices:
+
+-  Desktop
+-  Laptop
+-  Tablet
+-  Mobile
+
+---
+
+##  What I Learned
+
+While building Smart Notes, I strengthened my understanding of:
+
+- **DOM Manipulation** – Dynamically created, updated, and removed HTML elements using JavaScript.
+- **Event Handling** – Managed user interactions such as clicks, typing, and button actions.
+- **JavaScript (ES6)** – Applied modern JavaScript features like arrow functions, template literals, and `const`/`let`.
+- **Browser Local Storage API** – Stored and retrieved notes locally so data persists after refreshing the page.
+- **Responsive Web Design** – Built a layout that adapts smoothly to different screen sizes and devices.
+- **UI Design & User Experience (UI/UX)** – Designed a clean, intuitive, and user-friendly interface.
+- **Git & GitHub Workflow** – Learned version control, commits, pushes, and project hosting on GitHub.
+
+---
 
 ##  Future Improvements
 

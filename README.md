@@ -20,12 +20,11 @@ Smart Notes helps users quickly create, organize, search, and manage notes throu
 
 ---
 
-## 📸 Application Preview
+## Application Preview
 
 ### ☀️ Light Mode
 
 ![Light Mode](screenshots/Light%20Mode.png)
-
 
 ---
 

@@ -6,17 +6,17 @@ Smart Notes helps users quickly create, organize, search, and manage notes throu
 
 ---
 
-## ✨ Features
+##  Features
 
-- ✍️ Create unlimited notes
-- 🔍 Search notes instantly
-- 🌈 Random note colors for better organization
-- 🌙 Dark & Light mode support
-- 💾 Automatic Local Storage
-- 📥 Export all notes as a `.txt` file
-- 🗑️ Delete notes easily
-- 📱 Responsive design for desktop and mobile devices
-- ⚡ Smooth animations and modern UI
+-  Create unlimited notes
+   Search notes instantly
+-  Random note colors for better organization
+-  Dark & Light mode support
+-  Automatic Local Storage
+-  Export all notes as a `.txt` file
+-  Delete notes easily
+-  Responsive design for desktop and mobile devices
+-  Smooth animations and modern UI
 
 ---
 
@@ -24,17 +24,18 @@ Smart Notes helps users quickly create, organize, search, and manage notes throu
 
 ### ☀️ Light Mode
 
-![Light Mode](screenshots/Light Mode.png)
+![Light Mode](screenshots/Light%20Mode.png)
+
 
 ---
 
 ### 🌙 Dark Mode
 
-![Dark Mode](screenshots/Dark Mode.png)
+![Dark Mode](screenshots/Dark%20Mode.png)
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 - HTML5
 - CSS3
@@ -43,7 +44,7 @@ Smart Notes helps users quickly create, organize, search, and manage notes throu
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Smart-Notes/
@@ -65,7 +66,7 @@ Smart-Notes/
 
 ---
 
-## 💡 How It Works
+##  How It Works
 
 - Click **Create Notes** to add a new note.
 - Type directly inside the note card.
@@ -76,7 +77,7 @@ Smart-Notes/
 
 ---
 
-## 🎯 Key Highlights
+##  Key Highlights
 
 - Clean and modern user interface
 - Responsive layout
@@ -88,15 +89,15 @@ Smart-Notes/
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
-- 📌 Pin important notes
-- 🏷️ Categories & Tags
-- 📝 Rich Text Formatting
-- ☁️ Cloud Synchronization
-- 🔐 User Authentication
-- 📂 Import Notes
-- 📅 Note Creation Date
-- ⭐ Favorite Notes
+-  Pin important notes
+-  Categories & Tags
+-  Rich Text Formatting
+-  Cloud Synchronization
+-  User Authentication
+-  Import Notes
+-  Note Creation Date
+-  Favorite Notes
 
 ---
